@@ -1,0 +1,311 @@
+body{
+
+margin: auto;
+padding: auto;
+
+
+}
+
+.main_cont{
+
+height: 92vh;
+display: grid;
+place-items: center;
+background-color: #13544e;
+border-radius: 30px;
+width: 96%;
+margin: 2%;
+position: relative;
+}
+.sub_main_cont1{
+
+    width: 95%;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    display: flex;
+    box-shadow: 2px 2px 10px black;
+}
+
+.sub_main_cont1 ul{
+
+display: flex;
+
+
+}
+
+.sub_main_cont1 ul li{
+
+margin-right: 100px;
+list-style: none;
+color: #13544e;
+
+}
+
+.sub_main_cont1 ul li:hover{
+
+font-size: 18px;
+cursor: cell;
+
+}
+
+
+.sub_main_cont2{
+
+    background-color: rgba(255, 255, 255,0.1);
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+}
+
+.search{
+
+    background-color: rgba(255, 255, 255,0.1);
+    width: 20%;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px black;
+    display:grid;
+    place-items: center;    
+
+}
+
+.search:hover{
+
+width: 50%;
+transition: 0.6s;
+
+}
+
+.search input{
+
+width: 40%;
+height: 80%;
+border-radius: 20px;
+border: 0;
+
+}
+
+.search input:hover{
+
+width: 80%;
+transition: 0.6s;
+
+}
+
+a{
+
+
+    cursor: cell;
+}
+
+
+::placeholder{
+
+color: #13544e;
+text-align: center;
+padding-left: 10px;
+
+}
+
+
+
+/* section resulte */
+.box h3 {
+  position: relative;
+}
+.resulte .box-container{ 
+    width:85%; 
+    display: flex; 
+    justify-content: center; 
+    margin:0 auto; 
+    padding-top: 4rem; 
+    flex-wrap: wrap; 
+} 
+
+.resulte .box-container .box{ 
+    height:18rem; 
+    width:25rem; 
+    margin:3.5rem 2rem; 
+    text-align: center; 
+    border-radius: 1rem; 
+    box-shadow: .3rem .3rem 0 .1rem #13544e, .5rem .5rem .5rem rgba(0,0,0,.3); 
+} 
+
+.resulte .box-container .box i{ 
+    height:10rem; 
+    width:10rem; 
+    line-height: 8rem; 
+    text-align: center; 
+    color:#fff; 
+    border-radius: 50%; 
+    background:#1c655e; 
+    margin-top: -4rem; 
+    border:1rem solid #fff; 
+    border-left:1rem solid #1c655e; 
+    border-right:1rem solid #1c655e; 
+    box-shadow: 0 0 0 1rem #fff inset; 
+    font-size: 3.5rem; 
+} 
+
+.resulte .box-container .box h3{ 
+    font-size: 2rem; 
+    color:#1c655e; 
+} 
+
+.resulte .box-container .box p{ 
+    font-size: 2.5rem; 
+    color:#999; 
+    padding:0 0; 
+} 
+
+
+
+
+.cont_more{
+
+height: 200px;
+display: grid;
+place-items: center;
+
+}
+
+.more button{
+
+width: 100px;
+height: 40px;
+background-color: #13544e;
+border-radius: 10px;
+border: 0;
+text-align: center;
+color: #fff;
+font-size: 20px;
+
+}
+.more button:hover{
+
+box-shadow: 1px 1px 10px black;
+transition: 0.3s;
+
+}
+
+
+
+
+
+/* contact us section */
+
+.main3{
+
+    height: 92vh;
+    display: grid;
+    place-items: center;
+    background-color: #13544e;
+    border-radius: 30px;
+    width: 96%;
+    margin: 2%;
+    position: relative;
+
+}
+
+.cont_main3{
+
+    background-color: rgba(255, 255, 255,0.2);
+    width: 50%;
+    height: 55vh;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+
+}
+
+.input1{
+
+width: 50%;
+height: 30px;
+background-color: #13544e;
+border-radius: 20px;
+}
+
+.input1:hover{
+
+    box-shadow: 1px 1px 7px black;
+
+
+}
+
+.input1 input{
+
+background-color: #fff;
+width: 390px;
+height: 28px;
+border-radius: 15px;
+margin-left: 15px;
+border: 0;
+
+}
+
+.input1 span{
+
+margin-left: 15px;
+
+}
+
+.input2{
+
+
+    width: 50%;
+    height: 200px;
+    background-color: #13544e;
+    border-radius: 20px;    
+}
+
+.input2:hover{
+
+box-shadow: 1px 1px 7px black;
+
+}
+
+
+.input2 input{
+
+    background-color: #fff;
+    width: 390px;
+    height: 197px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 0;
+    
+    }
+    
+    .input2 span{
+    
+    margin-left: 15px;
+    
+    }
+
+
+    .About{
+
+        background-color: #13544e;
+        height: 50vh;
+        margin-top: 60px;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        text-align: center;
+
+    }
+    .About_h1{
+
+color: #fff;
+font-size: 35px;
+padding-top: 30px;
+    }

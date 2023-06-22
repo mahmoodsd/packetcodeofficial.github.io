@@ -1,0 +1,81 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up | Client</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="n.css">
+</head>
+<body dir="rtl">
+	<header>
+		<div class="container1">
+            <a href="error_page.html" class="logo" style="margin-right: 20px;">Smart</a><hr>
+			<nav>
+				<ul>
+					<li><a href="HOME.php">الصفحة الرئيسية</a></li>
+					<li><a href="HOME.php">أقسام العيادة</a></li>
+					<li><a href="HOME.php">نظرة عامة</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="hero">
+		<div class="container1">
+			<h1>سجل معلومات الحجز</h1>
+		</div>
+	</section>
+
+	<section class="form">
+		<div class="container">
+			<form  action="freelancer.php" method="post" accept-charset="UTF-8">
+
+
+				<label >الأسم الرباعي</label>
+				<input type="text"  name="name" required>
+
+                <label >المواليد</label>
+				<input type="date"  name="date" required>
+		
+
+				<label >الأيميل</label>
+				<input type="email" name="email" required>
+
+
+				<label >الجنس</label>
+                <select  name="gender" required>
+				
+                    <option >ذكر</option>
+                    <option >أنثى</option>
+                                    
+                    </select>
+
+                <label >القسم الذي تريد الحجز فيه</label>
+				<select  name="department" required>
+				
+			    <option >section1</option>
+				<option >section2</option>
+				<option >section3</option>
+				<option >section4</option>
+				<option >section5</option>
+				<option >section6</option>
+							    
+                </select>
+
+                
+				<label >شرح مبسط عن الحالة</label>
+				<textarea id="status" name="status"></textarea>
+
+				<button id="button" class="last" type="submit">حجز</button>
+
+			</form>
+		</div>
+	</section>
+
+	
+
+</body>
+</html>
